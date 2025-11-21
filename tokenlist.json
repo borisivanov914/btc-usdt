@@ -1,5 +1,5 @@
 {
-  "name": "BTC/USDT Experimental List",
+  "name": "BTC/USDT List",
   "timestamp": "2025-11-21T00:00:00+00:00",
   "version": {
     "major": 1,
@@ -13,7 +13,7 @@
       "name": "BTC/USDT",
       "symbol": "BTCUSDT",
       "decimals": 8,
-      "logoURI": "https://github.com/borisivanov914/btc-usdt/blob/main/btcusdt.png"
+      "logoURI": "https://borisivanov914.github.io/btc-usdt/btcusdt.png"
     }
   ]
 }
