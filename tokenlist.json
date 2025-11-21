@@ -1,10 +1,19 @@
 {
-  "name": "BTC/USDT List",
+  "name": "BTCUSDT Experimental Token List",
+  "logoURI": "https://borisivanov914.github.io/btc-usdt/btcusdt.png",
+  "keywords": [
+    "BTCUSDT",
+    "BTC/USDT",
+    "Experimental",
+    "WBTC",
+    "Ethereum",
+    "Research"
+  ],
   "timestamp": "2025-11-21T00:00:00+00:00",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 0
+    "patch": 1
   },
   "tokens": [
     {
@@ -13,7 +22,28 @@
       "name": "BTC/USDT",
       "symbol": "BTCUSDT",
       "decimals": 8,
-      "logoURI": "https://borisivanov914.github.io/btc-usdt/btcusdt.png"
+      "logoURI": "https://borisivanov914.github.io/btc-usdt/btcusdt.png",
+      "tags": ["synthetic-btc", "wrapped-asset", "experimental"],
+      "extensions": {
+        "description": "BTCUSDT is an experimental ERC-20 token on Ethereum designed to mimic BTC-like pricing via the BTCUSDT/WBTC liquidity pool on Uniswap. Total supply is fixed at 5 tokens with 8 decimals.",
+        "coingeckoId": "",
+        "geckoTerminalPool": "https://app.uniswap.org/explore/pools/ethereum/0x45ee60d1c00141ca8b6c8f8b47b913304f4a8f2e9fe6ef8e7be7d538a8c7e2d7",
+        "website": "https://borisivanov914.github.io/btc-usdt"
+      }
     }
-  ]
+  ],
+  "tags": {
+    "synthetic-btc": {
+      "name": "Synthetic Bitcoin",
+      "description": "Assets designed to mirror Bitcoin-like behavior."
+    },
+    "wrapped-asset": {
+      "name": "Wrapped Asset",
+      "description": "Assets pegged or correlated to another token through AMM liquidity."
+    },
+    "experimental": {
+      "name": "Experimental Token",
+      "description": "A token created for DeFi, AMM and chart-indexing research."
+    }
+  }
 }
