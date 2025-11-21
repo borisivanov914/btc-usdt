@@ -1,1 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>BTC/USDT Token (Ethereum)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="BTC/USDT — an experimental ERC-20 token on Ethereum for wrapped-asset research, chart visibility testing, and DeFi liquidity experiments." />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #0b1020;
+      color: #f5f5f5;
+    }
+    .wrapper {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 32px 16px 48px;
+    }
+    .card {
+      background: #151a2b;
+      border-radius: 16px;
+      padding: 24px 20px;
+      box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+      border: 1px solid #242a3f;
+    }
+    h1, h2, h3 {
+      margin-top: 0;
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      opacity: 0.8;
+      margin-bottom: 16px;
+    }
+    code {
+      background: #111728;
+      padding: 2px 5px;
+      border-radius: 4px;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 13px;
+    }
+    .section {
+      margin-top: 24px;
+    }
+    .kv {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+      gap: 6px 18px;
+      font-size: 14px;
+    }
+    .kv div:nth-child(odd) {
+      opacity: 0.8;
+    }
+    .badge {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 999px;
+      background: #202848;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      opacity: 0.9;
+      margin-bottom: 16px;
+    }
+    a {
+      color: #8fb3ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .disclaimer {
+      font-size: 12px;
+      opacity: 0.7;
+      margin-top: 24px;
+      line-height: 1.5;
+    }
+    ul {
+      margin-top: 8px;
+      padding-left: 18px;
+      font-size: 14px;
+    }
+    @media (max-width: 600px) {
+      .card {
+        padding: 18px 14px;
+      }
+      h1 {
+        font-size: 22px;
+      }
+      .kv {
+        grid-template-columns: minmax(0, 1.2fr) minmax(0, 1.8fr);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="card">
+      <div class="badge">Ethereum · ERC-20 · Experimental</div>
+      <h1>BTC/USDT Token</h1>
+      <div class="subtitle">
+        An experimental ERC-20 token deployed on Ethereum. Designed for wrapped-asset behavior research, liquidity experiments, price discovery, and chart indexing tests in modern crypto wallets and DeFi platforms.
+      </div>
+
+      <div class="section">
+        <h2>Token Information</h2>
+        <div class="kv">
+          <div>Network</div>
+          <div>Ethereum Mainnet (chainId: 1)</div>
+
+          <div>Contract</div>
+          <div><code>0xd5a90C85555Ee13863EE2b7a07D4B8807218Ef6b</code></div>
+
+          <div>Name</div>
+          <div>BTC/USDT</div>
+
+          <div>Symbol</div>
+          <div>BTCUSDT</div>
+
+          <div>Decimals</div>
+          <div>8</div>
+
+          <div>Total Supply</div>
+          <div>5.00000000 BTCUSDT</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Purpose</h2>
+        <p style="font-size:14px; line-height:1.5;">
+          The BTC/USDT token is intended for:
+        </p>
+        <ul>
+          <li>wrapped-asset research (similar to WBTC or synthetic BTC),</li>
+          <li>DEX liquidity and AMM behavior experiments,</li>
+          <li>price discovery analysis using shallow liquidity pools,</li>
+          <li>wallet chart-indexing behavior testing (MetaMask, Coinbase Wallet),</li>
+          <li>DeFi analytics and volatility modelling.</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>How to Add BTC/USDT to MetaMask</h2>
+        <ol style="font-size:14px; line-height:1.6; padding-left:18px;">
+          <li>Open <strong>MetaMask</strong> and select <strong>Ethereum Mainnet</strong>.</li>
+          <li>Click <strong>Import Tokens</strong> → <strong>Custom Token</strong>.</li>
+          <li>Paste the contract address:<br>
+            <code>0xd5a90C85555Ee13863EE2b7a07D4B8807218Ef6b</code>
+          </li>
+          <li>Ensure <strong>Decimals = 8</strong>.</li>
+          <li>Confirm the import.</li>
+        </ol>
+      </div>
+
+      <div class="section">
+        <h2>DeFi & Liquidity Usage</h2>
+        <p style="font-size:14px; line-height:1.5;">
+          BTC/USDT can be paired on DEX platforms such as Uniswap v2/v3 with:
+        </p>
+        <ul>
+          <li>WBTC,</li>
+          <li>WETH,</li>
+          <li>USDC.</li>
+        </ul>
+        <p style="font-size:14px; line-height:1.5;">
+          These pairs allow researchers to observe on-chain price formation, trading volume, arbitrage dynamics, and chart generation in external aggregators (CoinGecko, CMC).
+        </p>
+      </div>
+
+      <div class="disclaimer">
+        <strong>Disclaimer:</strong> This is an experimental token and does not represent any financial product or investment instrument. No guarantees of liquidity, value, or market behavior are provided. Use at your own risk.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
 
