@@ -1,0 +1,19 @@
+{
+  "name": "BTC/USDT Experimental List",
+  "timestamp": "2025-11-21T00:00:00+00:00",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tokens": [
+    {
+      "chainId": 1,
+      "address": "0xd5a90C85555Ee13863EE2b7a07D4B8807218Ef6b",
+      "name": "BTC/USDT",
+      "symbol": "BTCUSDT",
+      "decimals": 8,
+      "logoURI": "https://github.com/borisivanov914/btc-usdt/blob/main/btcusdt.png"
+    }
+  ]
+}
